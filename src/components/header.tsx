@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment, useState} from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon, ChatIcon } from '@heroicons/react/outline'
+import { BellIcon, MenuIcon, XIcon, ChatIcon, FilterIcon } from '@heroicons/react/outline'
 import PropTypes from 'prop-types'
 
 const Header = ({callback, open}: {callback: Function, open: boolean}) => {

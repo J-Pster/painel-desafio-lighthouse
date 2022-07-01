@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-
-  .lg-font-text {
-    @apply px-3 py-2 rounded-md text-3xl font-medium;
-    color: #5A5773;
-  }
-
   body {
     @apply bg-backcolor;
   }
