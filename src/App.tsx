@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import Header from './components/header';
 import Filter from './components/filter';
 import DataCard from './components/datacard';
+import Chart from './components/chart';
 import LeftMenu from './components/leftmenu';
 import * as indicators from './data/indicators';
+import UserData from './data/chart';
 import './App.css';
 
 function App() {
@@ -36,6 +38,9 @@ function App() {
             {indicators.data.map((data, index) => {
               return <DataCard key={index} {...data} />
             })}
+          </div>
+          <div className="flex justify-center rounded-xl bg-white px-3 py-6 m-5">
+            <Chart />
           </div>
         </div>
       </div>
