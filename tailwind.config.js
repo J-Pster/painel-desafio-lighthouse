@@ -13,6 +13,9 @@ module.exports = {
         bloodred: '#FF0000',
       }
     },
+    screens: {
+      'mob': '500px',
+    },
   },
   plugins: [],
 }
