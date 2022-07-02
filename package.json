@@ -1,6 +1,7 @@
 {
   "name": "projetolighthouse",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.5",
